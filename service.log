@@ -1,0 +1,113 @@
+2026-10-19 15:39:54,446 | INFO | model loaded successfully
+2026-10-19 15:39:54,447 | INFO | starting ml-service on port 5000
+2026-10-19 15:40:19,903 | INFO | prediction=0 latency_ms=2.8
+2026-10-19 15:40:52,563 | INFO | model loaded successfully
+2026-10-19 15:40:52,564 | INFO | starting ml-service on port 5000
+2026-10-19 15:42:15,828 | INFO | prediction=0 latency_ms=2.8
+2026-10-19 15:42:36,471 | ERROR | prediction failed: ValueError('expected 4 features, got 2') latency_ms=0.1
+2026-10-19 15:42:42,696 | ERROR | prediction failed: KeyError('features') latency_ms=0.1
+2026-10-19 15:43:00,072 | WARNING | negative feature value received: [[-1.0, 3.0, 1.4, 0.2]]
+2026-10-19 15:43:00,073 | INFO | prediction=0 latency_ms=0.6
+2026-10-19 15:44:39,090 | INFO | prediction=1 latency_ms=0.5
+2026-10-19 15:44:39,093 | INFO | prediction=1 latency_ms=0.7
+2026-10-19 15:44:39,095 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,095 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,097 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,098 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,098 | INFO | SUMMARY requests=10 errors=2 error_rate=20% avg_latency_ms=0.6 prediction_counts={0: 2, 1: 6}
+2026-10-19 15:44:39,099 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,100 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,101 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,102 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,103 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,104 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,105 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,106 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,106 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,107 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,107 | INFO | SUMMARY requests=20 errors=2 error_rate=10% avg_latency_ms=0.4 prediction_counts={0: 2, 1: 16}
+2026-10-19 15:44:39,108 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,109 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,110 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,111 | INFO | prediction=1 latency_ms=0.2
+2026-10-19 15:44:39,111 | INFO | no drift on sepal_length: live=5.426 train=5.809 change=7%
+2026-10-19 15:44:39,112 | INFO | no drift on sepal_width: live=3.037 train=3.062 change=1%
+2026-10-19 15:44:39,112 | INFO | no drift on petal_length: live=3.650 train=3.727 change=2%
+2026-10-19 15:44:39,112 | INFO | no drift on petal_width: live=1.190 train=1.183 change=1%
+2026-10-19 15:44:39,112 | ERROR | prediction failed: ValueError('expected 4 features, got 2') latency_ms=0.0
+2026-10-19 15:44:39,113 | ERROR | prediction failed: KeyError('features') latency_ms=0.0
+2026-10-19 15:44:39,114 | ERROR | prediction failed: ValueError("could not convert string to float: 'a'") latency_ms=0.0
+2026-10-19 15:44:39,115 | WARNING | negative feature value received: [[-1.0, 3.0, 1.4, 0.2]]
+2026-10-19 15:44:39,115 | INFO | prediction=0 latency_ms=0.5
+2026-10-19 15:44:39,117 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,118 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,118 | INFO | SUMMARY requests=30 errors=5 error_rate=17% avg_latency_ms=0.3 prediction_counts={0: 3, 1: 20, 2: 2}
+2026-10-19 15:44:39,119 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,120 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,121 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,122 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,123 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,124 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,125 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,126 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,127 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,127 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,127 | INFO | SUMMARY requests=40 errors=5 error_rate=12% avg_latency_ms=0.3 prediction_counts={0: 3, 1: 20, 2: 12}
+2026-10-19 15:44:39,128 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,129 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,130 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,131 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,132 | INFO | prediction=2 latency_ms=0.3
+2026-10-19 15:44:39,133 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,134 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,135 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,136 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,137 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,137 | INFO | SUMMARY requests=50 errors=5 error_rate=10% avg_latency_ms=0.3 prediction_counts={0: 3, 1: 20, 2: 22}
+2026-10-19 15:44:39,138 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,138 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,139 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,140 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,141 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,141 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,142 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,143 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,144 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,144 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,144 | INFO | SUMMARY requests=60 errors=5 error_rate=8% avg_latency_ms=0.2 prediction_counts={0: 3, 1: 20, 2: 32}
+2026-10-19 15:44:39,145 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,146 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,147 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,148 | INFO | prediction=2 latency_ms=0.3
+2026-10-19 15:44:39,149 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,150 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,151 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,152 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,152 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,153 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,153 | INFO | SUMMARY requests=70 errors=5 error_rate=7% avg_latency_ms=0.2 prediction_counts={0: 3, 1: 20, 2: 42}
+2026-10-19 15:44:39,154 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,155 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,155 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,156 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,157 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,158 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,159 | INFO | prediction=2 latency_ms=0.3
+2026-10-19 15:44:39,160 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,161 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,161 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,161 | INFO | SUMMARY requests=80 errors=5 error_rate=6% avg_latency_ms=0.2 prediction_counts={0: 3, 1: 20, 2: 52}
+2026-10-19 15:44:39,162 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,163 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,164 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,165 | INFO | prediction=2 latency_ms=0.2
+2026-10-19 15:44:39,166 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,167 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,168 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,168 | INFO | prediction=2 latency_ms=0.1
+2026-10-19 15:44:39,169 | INFO | no drift on sepal_length: live=6.845 train=5.809 change=18%
+2026-10-19 15:44:39,169 | INFO | no drift on sepal_width: live=3.008 train=3.062 change=2%
+2026-10-19 15:44:39,169 | WARNING | possible drift on petal_length: live=5.596 train=3.727 change=50%
+2026-10-19 15:44:39,169 | WARNING | possible drift on petal_width: live=1.919 train=1.183 change=62%
+2026-10-19 15:44:39,170 | INFO | SUMMARY requests=88 errors=5 error_rate=6% avg_latency_ms=0.2 prediction_counts={0: 3, 1: 20, 2: 60}
+2026-10-19 15:54:38,840 | INFO | SUMMARY requests=88 errors=5 error_rate=6% avg_latency_ms=0.2 prediction_counts={0: 3, 1: 20, 2: 60}
